@@ -1,0 +1,54 @@
+baseURL = 'https://iraj.place/'
+languageCode = 'en-us'
+title = "Iraj Eshghi's Research"
+theme = 'typo'
+
+[taxonomies]
+tag = 'tags'
+
+[params]
+# Meta description
+description = ""
+# Appearance settings
+theme = 'auto'
+colorPalette = 'default'
+hideHeader = false
+
+# Intro on main page, content is markdown
+homeIntroTitle = 'hello'
+homeIntroContent = """
+My name is **Iraj Eshghi**, welcome to my personal website. I'm a physicist interested in the organizing principles of life and how they go awry. I am currently working as a Postdoctoral Researcher at the [New York Genome Center](https://www.nygenome.org/) mentored primarily by [Marcin Imielinski ](https://www.nygenome.org/about-us/our-people/faculty-scientists/marcin-imielinski-md-phd/), where I research cancer genomes, their structure, dynamics, and evolution. 
+
+Specifically, I study complex [structural variants](https://www.annualreviews.org/content/journals/10.1146/annurev-genom-120121-101149), large changes in genomic ordering, topology, and copy number which occur in many cancers. These are hard to detect and characterize using current methods, but using principled approaches and physical intuition we can make inferences where previously thought impossible. I'm also interested in understanding the ways in which these structures physically interact with themselves and their environment and how this affects cancer development. 
+
+My background is in the statistical mechanics of chromatin and any/all soft active matter systems. I'm always curious to learn about any adjacent topics in physics or biology. Don't hesitate to reach out to discuss new problems and ideas!
+
+email: ieshghi at nygenome dot org
+
+[Google Scholar](https://scholar.google.com/citations?user=DnLtmq0AAAAJ&hl=en), [Orcid](https://orcid.org/0000-0002-4527-7578), [Github](https://github.com/ieshghi)"""
+
+# Collection to display on home
+homeCollectionTitle = 'selected publications'
+homeCollection = 'pubs'
+
+# Lists parameters
+paginationSize = 100
+listSummaries = true
+listDateFormat = '2 Jan 2006'
+
+# Breadcrumbs
+breadcrumbs = true
+
+# Main menu pages
+[[params.menu]]
+name = "home"
+url = "/"
+
+[[params.menu]]
+name = "pubs"
+url = "/pubs"
+
+# Syntax highligth on code blocks
+[markup]
+[markup.highlight]
+style = 'algol'

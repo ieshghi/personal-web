@@ -1,0 +1,11 @@
+/* Place custom css here */
+figure[src$='#floatleft']
+{
+    float:left;
+        //etc. etc/
+}
+figure[src$='#floatright']
+{
+    float:right;
+        //etc. etc/
+}
