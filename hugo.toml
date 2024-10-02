@@ -17,7 +17,7 @@ hideHeader = false
 # Intro on main page, content is markdown
 homeIntroTitle = 'hello'
 homeIntroContent = """
-My name is **Iraj Eshghi**, welcome to my personal website. I'm a physicist interested in the organizing principles of life and how they go awry. I am currently working as a Postdoctoral Researcher at the [New York Genome Center](https://www.nygenome.org/) mentored primarily by [Marcin Imielinski ](https://www.nygenome.org/about-us/our-people/faculty-scientists/marcin-imielinski-md-phd/), where I research cancer genomes, their structure, dynamics, and evolution. 
+My name is **Iraj Eshghi**, welcome to my personal website. I'm a physicist interested in the organizing principles of life and how they go awry. I am currently working as a Postdoctoral Researcher at the [New York Genome Center](https://www.nygenome.org/) primarily in the [Imieliski lab](https://www.mskilab.org), where I research cancer genomes, their structure, dynamics, and evolution. 
 
 Specifically, I study complex [structural variants](https://www.annualreviews.org/content/journals/10.1146/annurev-genom-120121-101149), large changes in genomic ordering, topology, and copy number which occur in many cancers. These are hard to detect and characterize using current methods, but using principled approaches and physical intuition we can make inferences where previously thought impossible. I'm also interested in understanding the ways in which these structures physically interact with themselves and their environment and how this affects cancer development. 
 
